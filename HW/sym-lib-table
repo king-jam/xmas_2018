@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name christmas)(type Legacy)(uri /home/james/Documents/Christmas_2018/christmas.lib)(options "")(descr ""))
+  (lib (name symbols)(type Legacy)(uri /home/james/Documents/KiCAD/symbols.lib)(options "")(descr ""))
+  (lib (name Christmas_2018-rescue)(type Legacy)(uri ${KIPRJMOD}/Christmas_2018-rescue.lib)(options "")(descr ""))
+)
