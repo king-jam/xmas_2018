@@ -17,7 +17,7 @@ MCU = attiny102
 CLK = 1000000UL
 # avr programmer (and port if necessary)
 # e.g. PRG = usbtiny -or- PRG = arduino -P /dev/tty.usbmodem411
-PRG = usbtiny
+PRG = avrispmkII
 # fuse values for avr: byte
 # these values are from an Arduino Uno (ATMega328P)
 # see http://www.engbedded.com/fusecalc/ for other MCUs and options

@@ -3,33 +3,6 @@
 
 #include <avr/pgmspace.h>
 
-// lower
-#define D1_D8 2
-#define D1 0
-#define D2 1
-#define D3 2
-#define D4 3
-#define D5 4
-#define D6 5
-#define D7 6
-#define D8 7
-// mid
-#define D9_D16 1
-#define D9 0
-#define D10 1
-#define D11 2
-#define D12 3
-#define D13 4
-#define D14 5
-#define D15 6
-#define D16 7
-// upper
-#define D17_D20 0
-#define D17 0
-#define D18 1
-#define D19 2
-#define D20 3
-
 #define PA0_OFFSET 0 // Pin 2 (PA0) on ATtiny102
 #define PA1_OFFSET 1 // Pin 3 (PA1) on ATtiny102
 #define PB1_OFFSET 2 // Pin 5 (PB1) on ATtiny102
