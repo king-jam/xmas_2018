@@ -1,4 +1,3 @@
-#include "main.h"
 #include "port_map.h"
 #include <avr/pgmspace.h>
 #include <avr/io.h>
@@ -62,22 +61,6 @@ void light_led(unsigned char led) {
 	DDRB = (dir & PB_MASK) >> PB_RS;
 	PORTB = (lvl & PB_MASK) >> PB_RS;
 }
-
-// void refresh_leds() {
-// 	unsigned char led_states_idx = last_on_idx + 1;
-// 	leds_off();
-// 	while(led_states_idx != last_on_idx) {
-// 		if(led_states[led_states_idx] == 1) {
-// 			light_led(led_states_idx);
-// 			last_on_idx = led_states_idx;
-// 			break;
-// 		}
-// 		led_states_idx++;
-// 		if(led_states_idx == LEDS) {
-// 			led_states_idx = 0;
-// 		}
-// 	}
-// }
 
 void handle_pwm() {
   tickCount++;
