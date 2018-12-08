@@ -62,6 +62,7 @@ void light_led(unsigned char led) {
 	PORTB = (lvl & PB_MASK) >> PB_RS;
 }
 
+// Credit to: https://www.baldengineer.com/software-pwm-with-millis.html
 void handle_pwm() {
   tickCount++;
     // determine if we're counting on or off time
